@@ -3,6 +3,13 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>RAbsalyamov.SoftwareDevelop.SoftwareDevelopConsole</RootNamespace>
+    <AssemblyName>RAbsalyamov.SoftwareDevelop.SoftwareDevelopConsole</AssemblyName>
   </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Domain\Domain.csproj" />
+    <ProjectReference Include="..\Persistance\Persistance.csproj" />
+  </ItemGroup>
 
 </Project>

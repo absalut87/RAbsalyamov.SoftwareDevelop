@@ -1,11 +1,14 @@
-﻿using System;
+﻿using RAbsalyamov.SoftwareDevelop.Domain;
+using RAbsalyamov.SoftwareDevelop.Persistance;
+using System;
 
-namespace SoftwareDevelopConsole
+namespace RAbsalyamov.SoftwareDevelopConsole
 {
     class Program
     {
         static void Main(string[] args)
         {
+            
             Console.WriteLine("Hello World!");
         }
     }
